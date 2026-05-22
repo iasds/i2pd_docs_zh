@@ -96,7 +96,7 @@ sudo dnf install make cmake gcc gcc-c++
 ```
 库：
 ```bash
-sudo dnf install boost-devel openssl-devel zlib-devel
+sudo dnf install boost-devel openssl-devel zlib-devel atomic
 ```
 UPnP（可选）：
 ```bash
