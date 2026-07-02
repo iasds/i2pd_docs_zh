@@ -84,7 +84,7 @@ ntcp2.published                        | 启用入站 NTCP2 连接（默认：tr
 ntcp2.port                             | 监听入站 NTCP2 连接的端口（默认：自动 - 使用通用选项部分的 `port`）
 ntcp2.addressv6                        | 用于入站连接的外部 IPv6 地址
 ntcp2.proxy                            | 为 NTCP2 指定代理服务器。应为 http://address:port 或 socks://address:port
-ntcp2.version                          | 协议版本。2 - 标准加密，3 - ML-KEM-512，4 - ML-KEM-768，5 - ML-KEM-1024（默认：2）
+ntcp2.version                          | 协议版本。2 - 标准加密，3 - ML-KEM-512，4 - ML-KEM-768，5 - ML-KEM-1024（默认：4（启用后量子支持时），2（未启用后量子支持时））
 
 ### SSU2
 

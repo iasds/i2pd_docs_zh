@@ -18,9 +18,13 @@ nav:
     - 匿名网站: tutorials/http.md
     - 匿名 IRC 聊天: tutorials/irc.md
     - 去中心化即时通讯 (XMPP, 又称之为 Jabber): tutorials/xmpp.md
-    - 文件共享: tutorials/filesharing.md
+    - 文件共享:
+        - 软件: tutorials/Filesharing/Software.md
+        - qBittorrent: tutorials/Filesharing/qBittorrent.md
     - 使用 RetroShare 搭配 i2pd: tutorials/retroshare.md
     - 仅通过 Yggdrasil 的路由器配置: tutorials/yggdrasil-only-mode.md
+    - 加密 LeaseSet2 配置: tutorials/blinded-addresse.md
+    - 术语表: tutorials/glossary.md
 - 开发者部分:
     - 从源代码构建:
         - 构建要求: devs/building/requirements.md
@@ -30,6 +34,7 @@ nav:
         - 交叉编译: devs/building/cross.md
         - iOS: devs/building/ios.md
         - GUI 应用: devs/building/qt-desktop-gui.md
+        - HaikuOS: devs/building/haikuos.md
     - API:
         - 为你的项目选择 API: devs/api/index.md
         - SAM: devs/api/SAM.md
